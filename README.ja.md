@@ -39,7 +39,13 @@ Tauri ベース——軽量でエレガント。
 
 ## 🖼 スクリーンショット
 
-> 準備中……
+![メイン画面](screenshots/ja/JP-01.jpg)
+
+![画像をドロップ](screenshots/ja/JP-02.jpg)
+
+![設定パネル](screenshots/ja/JP-03.jpg)
+
+![変換結果](screenshots/ja/JP-04.jpg)
 
 ---
 

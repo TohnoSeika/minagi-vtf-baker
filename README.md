@@ -39,7 +39,13 @@ Built with Tauri — lightweight and elegant.
 
 ## 🖼 Screenshots
 
-> Coming soon……
+![Main interface](screenshots/en/EN-01.jpg)
+
+![Drag & drop image](screenshots/en/EN-02.jpg)
+
+![Settings panel](screenshots/en/EN-03.jpg)
+
+![Conversion result](screenshots/en/EN-04.jpg)
 
 ---
 

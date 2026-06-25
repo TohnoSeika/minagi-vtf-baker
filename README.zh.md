@@ -39,7 +39,13 @@
 
 ## 🖼 截图
 
-> 即将添加……
+![主界面](screenshots/zh/CN-01.jpg)
+
+![拖入图片](screenshots/zh/CN-02.jpg)
+
+![设置面板](screenshots/zh/CN-03.jpg)
+
+![转换结果](screenshots/zh/CN-04.jpg)
 
 ---
 
