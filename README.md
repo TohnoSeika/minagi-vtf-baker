@@ -39,6 +39,12 @@ Built with Tauri — lightweight and elegant.
 
 ## 🎮 How to Use the VTF File
 
+### ⚠️ Important Notes
+For L4D2 static spray VTF generation:
+- **Output Format** must be set to **DXT1** and **1024**
+- **Sampling** must be set to **Anisotropic**
+- The **Sharpening** option has no observed effect, but feel free to test it yourself
+
 ### 📍 File Location
 After conversion, the VTF file is automatically saved in the **same folder as the source image**.
 File naming rules:
