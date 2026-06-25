@@ -37,6 +37,20 @@ Built with Tauri — lightweight and elegant.
 
 ---
 
+## 🎮 How to Use the VTF File
+
+### 📍 File Location
+After conversion, the VTF file is automatically saved in the **same folder as the source image**.
+File naming rules:
+- `static_minagi.vtf` (Static spray)
+- `animated_minagi.vtf` (Animated spray)
+- `distance_minagi.vtf` (Distance spray)
+
+### 🎯 In-Game Usage
+Open Left 4 Dead 2, go to **Options** → **Multiplayer** → **Import custom spray**. Select your VTF file, click **Done**, and the new spray will appear starting from the next map.
+
+---
+
 ## 🖼 Screenshots
 
 ![Main interface](screenshots/en/EN-01.jpg)
