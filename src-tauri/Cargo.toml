@@ -1,0 +1,39 @@
+[package]
+name = "minagi-vtf-baker"
+version = "1.0.0"
+description = "桃华帮 Minagi 做的 VTF 喷漆转换工具"
+authors = ["Sakurai Touka"]
+edition = "2021"
+default-run = "minagi-vtf-baker"
+
+[dependencies]
+tauri = { version = "2", features = ["tray-icon"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+image = "0.25"
+base64 = "0.22"
+open = "5"
+anyhow = "1"
+texpresso = "2"
+byteorder = "1"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[[bin]]
+name = "minagi-vtf-baker"
+path = "src/main.rs"
+
+[[bin]]
+name = "mipcheck"
+path = "src/mipcheck.rs"
+
+[[bin]]
+name = "diagnose"
+path = "src/diagnose.rs"
+
+[profile.release]
+strip = true
+lto = true
+codegen-units = 1
+opt-level = "s"

@@ -1,0 +1,45 @@
+{
+    "$schema": "https://raw.githubusercontent.com/tauri-apps/tauri/main/tooling/cli/schema.json",
+    "productName": "Minagi VTF Baker",
+    "version": "1.0.0",
+    "identifier": "minagi-vtf-baker",
+    "build": {
+        "frontendDist": "../src",
+        "beforeDevCommand": "",
+        "beforeBuildCommand": ""
+    },
+    "app": {
+        "withGlobalTauri": true,
+        "windows": [
+            {
+                "label": "main",
+                "title": "Minagi VTF Baker",
+                "width": 820,
+                "height": 600,
+                "resizable": false,
+                "decorations": false,
+                "center": true,
+                "backgroundColor": "#fdf6f0"
+            }
+        ],
+        "security": {
+            "csp": null
+        }
+    },
+    "bundle": {
+        "active": true,
+        "targets": ["nsis"],
+        "icon": [
+            "icons/icon.png",
+            "icons/ico.ico"
+        ],
+        "resources": [],
+        "windows": {
+            "nsis": {
+                "installMode": "currentUser",
+                "displayLanguageSelector": false,
+                "installerIcon": "icons/ico.ico"
+            }
+        }
+    }
+}
