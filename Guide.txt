@@ -1,9 +1,0 @@
-输入图片文件,
-必须是1024x1024分辨率的无透明通道的静态PNG格式图片,
-打开https://rafradek.github.io/Mishcatt/
-上传图片
-尺寸选择1024x1024
-Sampling method选择Anisotropic
-其他选项保持默认
-点击Convert转换,
-最后点击Save as VTF,
