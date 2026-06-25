@@ -1,13 +1,14 @@
 Copyright (c) 2026 Tohno Seika. All rights reserved.
 
-本软件为免费软件。
-可以自由下载、安装、使用和分发本软件的未修改二进制安装包。
+This software is freeware.
+You may freely download, install, use, and distribute unmodified binary copies of this software.
 
-禁止以下行为：
-- 对本软件进行反编译、逆向工程、反汇编
-- 修改、重构或创建基于本软件的衍生作品
-- 将本软件的全部或部分源代码用于其他项目
-- 移除或修改软件内的版权声明
+The following actions are prohibited:
+- Decompiling, reverse engineering, or disassembling this software
+- Modifying, refactoring, or creating derivative works based on this software
+- Using any part of the source code in other projects
+- Removing or altering copyright notices within the software
 
-本软件按「原样」提供，不提供任何明示或暗示的保证，
-包括但不限于适销性、特定用途适用性和非侵权性的保证。
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.

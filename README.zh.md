@@ -71,7 +71,7 @@
 ## 📜 许可证
 
 本项目为 **免费软件**，保留所有权利。  
-详情请参见 [LICENSE](./LICENSE) 文件。
+详情请参见 [LICENSE](./LICENSE)（英文）· [LICENSE.zh](./LICENSE.zh)（中文）· [LICENSE.ja](./LICENSE.ja)（日文）文件。
 
 ---
 

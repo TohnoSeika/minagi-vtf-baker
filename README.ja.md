@@ -71,7 +71,7 @@ Tauri ベース——軽量でエレガント。
 ## 📜 ライセンス
 
 このソフトウェアは **フリーウェア** です。すべての権利は留保されています。  
-詳細は [LICENSE](./LICENSE) ファイルを参照してください。
+詳細は [LICENSE](./LICENSE)（英語）· [LICENSE.zh](./LICENSE.zh)（中国語）· [LICENSE.ja](./LICENSE.ja)（日本語）を参照してください。
 
 ---
 

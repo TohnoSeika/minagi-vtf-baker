@@ -71,7 +71,7 @@ Part of this project's code and UI design was created with AI assistance.
 ## 📜 License
 
 This software is **freeware**, all rights reserved.  
-See [LICENSE](./LICENSE) for details.
+See [LICENSE](./LICENSE) (English) · [LICENSE.zh](./LICENSE.zh) · [LICENSE.ja](./LICENSE.ja) for details.
 
 ---
 
