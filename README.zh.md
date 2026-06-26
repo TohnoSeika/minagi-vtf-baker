@@ -57,6 +57,14 @@
 
 ---
 
+## 🎥 介绍视频
+
+[![介绍视频](http://i1.hdslb.com/bfs/archive/24dac7d07c4aaa4bfb4b284098c67a16a0e43f6b.jpg)](https://www.bilibili.com/video/BV1Hv7564ERA)
+
+点击上方图片观看 Bilibili 介绍视频。
+
+---
+
 ## 🖼 截图
 
 ![主界面](screenshots/zh/CN-01.jpg)
