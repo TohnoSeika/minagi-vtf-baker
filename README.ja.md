@@ -59,7 +59,7 @@ Left 4 Dead 2 を起動し、「オプション」→「マルチプレイヤー
 
 ## 🎥 紹介動画
 
-▶️ [Bilibili で見る](https://www.bilibili.com/video/BV1Hv7564ERA)（音声は中国語のみ）
+▶️ [Bilibili で見る](https://www.bilibili.com/video/BV1Hv7564ERA)（中国語のみ——UI・音声・字幕すべて中国語）
 
 ---
 
