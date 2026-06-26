@@ -59,9 +59,7 @@ Open Left 4 Dead 2, go to **Options** → **Multiplayer** → **Import custom sp
 
 ## 🎥 Introduction Video
 
-[![Introduction Video](http://i1.hdslb.com/bfs/archive/24dac7d07c4aaa4bfb4b284098c67a16a0e43f6b.jpg)](https://www.bilibili.com/video/BV1Hv7564ERA)
-
-Click the image above to watch the introduction video on Bilibili.
+▶️ [Watch on Bilibili](https://www.bilibili.com/video/BV1Hv7564ERA)
 
 ---
 

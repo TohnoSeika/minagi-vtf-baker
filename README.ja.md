@@ -59,9 +59,7 @@ Left 4 Dead 2 を起動し、「オプション」→「マルチプレイヤー
 
 ## 🎥 紹介動画
 
-[![紹介動画](http://i1.hdslb.com/bfs/archive/24dac7d07c4aaa4bfb4b284098c67a16a0e43f6b.jpg)](https://www.bilibili.com/video/BV1Hv7564ERA)
-
-上の画像をクリックして、Bilibili の紹介動画をご覧ください。
+▶️ [Bilibili で見る](https://www.bilibili.com/video/BV1Hv7564ERA)
 
 ---
 
