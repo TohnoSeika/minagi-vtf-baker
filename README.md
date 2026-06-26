@@ -59,7 +59,7 @@ Open Left 4 Dead 2, go to **Options** → **Multiplayer** → **Import custom sp
 
 ## 🎥 Introduction Video
 
-▶️ [Watch on Bilibili](https://www.bilibili.com/video/BV1Hv7564ERA) (Chinese only — UI, audio, subtitles)
+▶️ [Watch on Bilibili](https://www.bilibili.com/video/BV1Hv7564ERA) (The video is in Chinese — UI, audio, and subtitles)
 
 ---
 
