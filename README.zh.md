@@ -59,7 +59,7 @@
 
 ## 🎥 介绍视频
 
-▶️ [在 Bilibili 观看](https://www.bilibili.com/video/BV1Hv7564ERA)
+▶️ [在 Bilibili 观看](https://www.bilibili.com/video/BV1Hv7564ERA)（视频语言为中文）
 
 ---
 
