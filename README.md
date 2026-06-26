@@ -79,11 +79,16 @@ Open Left 4 Dead 2, go to **Options** → **Multiplayer** → **Import custom sp
 
 Download the latest installer from the [Releases](https://github.com/TohnoSeika/minagi-vtf-baker/releases) page.
 
-> 💡 Current version **v1.0**, ~6MB installer. A portable (no-install) version is also available.
+> 💡 Current version **v1.0.1**, ~6MB installer. A portable (no-install) version is also available.
 
 ---
 
 ## 📋 Changelog
+
+### v1.0.1
+- 🎉 v1.0.1 release
+- 🖼️ Fixed potentially misleading text in the software UI
+- 🔧 Cleaned up output format dropdown labels (DXT1 / DXT5 / RGBA8888)
 
 ### v1.0
 - 🎉 Initial release
