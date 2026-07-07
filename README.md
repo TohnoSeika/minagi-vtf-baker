@@ -79,11 +79,26 @@ Open Left 4 Dead 2, go to **Options** → **Multiplayer** → **Import custom sp
 
 Download the latest installer from the [Releases](https://github.com/TohnoSeika/minagi-vtf-baker/releases) page.
 
-> 💡 Current version **v1.0.1**, ~6MB installer. A portable (no-install) version is also available.
+> 💡 Current version **v1.0.2**, ~6MB installer. A portable (no-install) version is also available.
 
 ---
 
 ## 📋 Changelog
+
+### v1.0.2
+- 🐛 Fixed conversion failure caused by missing file path when selecting images via file picker in some cases
+- 🐛 Fixed error on subsequent conversion attempts after a successful first run in some cases
+- 🐛 Fixed toast claiming "saved to source directory" when the file was saved elsewhere in some cases
+- 🐛 Fixed build script copying the wrong (old) installer to the dist folder in some cases
+- 🐛 Fixed frontend code changes not being embedded into the final binary in some cases
+- 🐛 Fixed UI being completely unresponsive due to an extra brace causing a JS syntax error in some cases
+- 🐛 Fixed animated tab silently accepting a single frame without proper feedback in some cases
+- 🐛 Fixed animated/distant spray output not being saved to the original image folder in some cases
+- 🐛 Fixed distant spray allowing more than 5 images despite the limit in some cases
+- 🐛 Fixed drag-and-drop bypassing the frame count limit in some cases
+- 💄 Animated/distant drop zones are now click-disabled; use the side buttons to add images
+- 🌐 Updated hint text across languages to remove "click to select" references
+- 🎉 v1.0.2 release
 
 ### v1.0.1
 - 🎉 v1.0.1 release
