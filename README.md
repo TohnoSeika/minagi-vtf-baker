@@ -13,6 +13,7 @@ Built with Tauri — lightweight and elegant.
 ## ✨ Features
 
 - 🖼️ **Three Spray Modes** — Static VTF / Animated Spray / Distance-Blended Spray
+- 🎬 **Live Preview** — Animated and distance sprays show a live preview of the result in the left panel
 - 🎨 **DXT Compression** — DXT1 / DXT5 / RGBA8888 with alpha channel support
 - 🔄 **Sampling Methods** — Anisotropic / Bilinear / Nearest Neighbor
 - ✏️ **Sharpening** — Optional unsharp mask filter
@@ -30,10 +31,14 @@ Built with Tauri — lightweight and elegant.
 |:---|:---|
 | 🖱️ **Drop an image** | Drag & drop onto the left panel, or click to select a file |
 | 🔧 **Set parameters** | Choose compression format, output size, sampling method, etc. |
-| ✨ **Convert** | Click "Convert" — the `.vtf` file is saved to the source directory |
-| 🎬 **Animated spray** | Switch to the "Animated" tab, add JPG frames, and build an animated spray |
+| ✨ **Convert** | Click "Convert", then choose where to save in the dialog (default: source folder) |
+| 🎬 **Animated spray** | Switch to the "Animated" tab, add frame images, and build an animated spray |
 | 🌄 **Distance spray** | Switch to the "Distance" tab, add layers by distance, and build a distance-blended spray |
 | ⚙️ **Customize** | Go to Settings to change theme color, background image, and opacity |
+
+> 🖱️ Frames and layers are sorted by file name when added (so `frame2` comes before `frame10`).  
+> Drag any row in the list to adjust the order — both animated and distance sprays are order-sensitive.  
+> Frames accept the same formats as static images: **PNG / JPG / BMP / WEBP**. GIF images are rejected.
 
 ---
 
@@ -43,11 +48,10 @@ Built with Tauri — lightweight and elegant.
 For L4D2 static spray VTF generation:
 - **Output Format** must be set to **DXT1** and **1024**
 - **Sampling** must be set to **Anisotropic**
-- The **Sharpening** option has no observed effect, but feel free to test it yourself
+- **Sharpening** is optional — how visible it is depends on the image
 
 ### 📍 File Location
-After conversion, the VTF file is automatically saved in the **same folder as the source image**.
-File naming rules:
+Clicking "Convert" opens a save dialog. It defaults to the **source image's folder**, with these file names:
 - `static_minagi.vtf` (Static spray)
 - `animated_minagi.vtf` (Animated spray)
 - `distance_minagi.vtf` (Distance spray)
@@ -79,11 +83,29 @@ Open Left 4 Dead 2, go to **Options** → **Multiplayer** → **Import custom sp
 
 Download the latest installer from the [Releases](https://github.com/TohnoSeika/minagi-vtf-baker/releases) page.
 
-> 💡 Current version **v1.0.2**, ~6MB installer. A portable (no-install) version is also available.
+> 💡 Current version **v1.1.0**, ~6MB installer. A portable (no-install) version is also available.
 
 ---
 
 ## 📋 Changelog
+
+### v1.1.0
+- 🎬 Added a live animated preview on the Animated tab (the preview may not exactly match the in-game animation)
+- 🌄 The Distance tab now previews all five mip levels on the left, with a labeled slider to step between closest and farthest
+- 📦 Reinstalling now overwrites the previous version automatically, without asking whether to uninstall first
+- 🐛 Fixed the image loaded on the Static tab also appearing on the Animated and Distance tabs
+- 💾 Conversion now opens a Save As dialog for all three spray types (defaults to the source folder)
+- 🎬 Image lists on the Animated VTF and Distance VTF pages support drag-to-reorder
+- 🎬 Animated/distance frames now accept PNG / JPG / BMP / WEBP; list thumbnails are small previews
+- 🐛 Fixed a bug where GIF images could be imported
+- 🖼️ EXIF orientation is applied, so portrait phone photos are no longer sideways
+- 🐛 Fixed the UI freezing for seconds when dropping large images (e.g. 3000×5000): decoding now runs off the main thread and previews use fast downscaling
+- 🐛 Fixed the default background never appearing
+- 🐛 Fixed the output size and sampling method settings being ignored
+- 🐛 Fixed RGBA8888 output actually being encoded as DXT1
+- 🔒 Added a Content Security Policy, image size limits, and safer preview rendering
+- 🧹 Cleaned up dead code and added unit tests
+- 🎉 v1.1.0 release
 
 ### v1.0.2
 - 🐛 Fixed conversion failure caused by missing file path when selecting images via file picker in some cases
